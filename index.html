@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto AV3 Sustentável</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="uj.png" alt="Logotipo do Projeto Sustentável" class="logo">
+        <h1>Projeto AV3 Sustentável</h1>
+    </header>
+    <nav class="menu-abas">
+        <button class="aba" onclick="mostrarConteudo('sobre')">Sobre o Projeto</button>
+        <button class="aba" onclick="mostrarConteudo('recursos')">Recursos Principais</button>
+        <button class="aba" onclick="mostrarConteudo('pobreza')">Erradicação da Pobreza</button>
+        <button class="aba" onclick="mostrarConteudo('fome')">Erradicação da Fome</button>
+        <button class="aba" onclick="mostrarConteudo('saude')">Saúde e Bem-Estar</button>
+        <button class="aba" onclick="mostrarConteudo('educacao')">Educação de Qualidade</button>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>Este projeto visa promover práticas sustentáveis na comunidade, utilizando tecnologias acessíveis.</p>
+            <p>ALUNO: BRUNO SILVA DOS ANJOS.
+                DDD
+            </p>
+            <p>DISCIPLINA: LABORATÓRIO DE DESENVOLVIMENTO DE SOFTWARE.</p>
+        </section>
+        <section id="recursos">
+            <h2>Recursos Principais</h2>
+            <ul>
+                <li>Erradicação da pobreza</li>
+                <li>Erradicação da fome</li>
+                <li>Saúde e bem-estar</li>
+                <li>Educação de qualidade</li>
+            </ul>
+        </section>
+        <section id="pobreza" style="display: none;">
+            <h2>Erradicação da Pobreza</h2>
+            <img src="erradicacao-pobreza.jpg" alt="Erradicação da Pobreza" style="max-width: 50%; height: auto;">
+            <p>A ODS 1 visa acabar com a pobreza em todas as suas formas, em todos os lugares, até 2030, assegurando que todos os homens e mulheres, especialmente os pobres e vulneráveis, tenham os mesmos direitos aos recursos econômicos, além de acesso a serviços básicos, terra, propriedade e outras formas de empoderamento social.</p>
+        </section>
+        
+        <section id="fome" style="display: none;">
+            <h2>Erradicação da Fome</h2>
+            <img src="erradicacao-fome.jpg" alt="Erradicação da Fome" style="max-width: 50%; height: auto;">
+            <p>A ODS 2 busca acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição, e promover a agricultura sustentável. É essencial garantir o acesso seguro, nutritivo e suficiente a alimentos durante todo o ano para todas as pessoas.</p>
+        </section>
+        
+        <section id="saude" style="display: none;">
+            <h2>Saúde e Bem-Estar</h2>
+            <img src="saude-bem-estar.jpg" alt="Saúde e Bem-Estar" style="max-width: 50%; height: auto;">
+            <p>A ODS 3 visa assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades. Isso inclui reduzir a taxa global de mortalidade materna e infantil, combater doenças transmissíveis e não transmissíveis, e garantir o acesso universal aos serviços de saúde.</p>
+        </section>
+        
+        <section id="educacao" style="display: none;">
+            <h2>Educação de Qualidade</h2>
+            <img src="educacao-qualidade.jpg" alt="Educação de Qualidade" style="max-width: 50%; height: auto;">
+            <p>A ODS 4 visa assegurar a educação inclusiva, equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos. Isso inclui garantir que todas as meninas e meninos completem o ensino primário e secundário livre, equitativo e de qualidade, levando a resultados de aprendizagem relevantes e eficazes.</p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Projeto Sustentável. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
